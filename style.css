@@ -1,0 +1,175 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #ff9b61;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(https://th.bing.com/th/id/R.bc0d40cb25d56466a4a6fc84dacf1ce8?rik=dYsKEgTp%2b7w9pg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fDownload-pink-Flower-wallpapers-hd.jpg&ehk=U%2fOlCR5KeEa3AK%2fgFnfZQMpZPQG%2fo650pyu5PRrH8Iw%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e05a4f;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Shop Section */
+.shop {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.shop h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.flower-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flower-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.flower-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.flower-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.flower-card p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 10px;
+}
+
+.flower-card .btn {
+    margin-bottom: 15px;
+}
+
+.flower-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
